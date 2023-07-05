@@ -4,7 +4,7 @@ from django.shortcuts import render
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Hello !")
+    return render("render, hello/index.html")
 
 def mohan(request):
     return HttpResponse("Hello, Mohan")
